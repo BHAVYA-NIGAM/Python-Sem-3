@@ -1,0 +1,66 @@
+1. check the python version installed on your system through commandlines
+2. WAP  to print ASCII value of a character (HINT: ord()) function
+3. WAP to find difference of two small integers (not greater than 10) without using minus(-) operation [Hint: Use ^ operator]
+4. WAP to multiply a given number by 2 without using * (multiply operator)
+5. WAP to calculate and display the interest on a loan amount(Rupees)
+    You would need three variables to hold 'principal', 'Rate_of_Interest'(%), and 'time' in years and can use the formula
+    interest = (principal * Rate_of_Interest * time) / 100;
+    Note: Take user input
+    
+6. Write a Python program which accepts the radius of a circle from the user and compute the area
+7. Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn
+8. Take a 5 digit number as input and reverse it without using loop
+9. Two numbers are input through the keyboard into two locations C and D. Write a program to interchange the contents of C and D
+10. If a four digit number is input through the keyboard, write a program to obtain the sum of the first and last digit of this number
+
+11. In a town, the percentage of men is 52. The percentage of total literacy is 48. If total percentage of literate men is 35 of the    total population, write a program to find the total number of illiterate men and women if the population of the town is 80,000
+
+12. A cashier has currency notes of denominations 10, 50 and 100. If the amount to be withdrawn is input through the keyboard in hundreds, find the total number of currency notes of each denominations the cashier will have to give to the withdrawer.
+
+
+1. Find the maximum of three numbers
+2. Check whether a number is prime
+3. Check whether a number is Armstrong
+4. Find all primes between a given range
+5. Write a python program that accepts a word from the user and reverse it
+6. Write a python program to count the number of even and odd number̀s from the number
+7. Write a Python program that prints all the numbers from 0 to 6 except 3
+  Note: Use 'continue' statement
+8. Write a python program to get the Fibonacci series between 0 to 50
+9. Write a python program which iterates the integer from 1 to 50. For multiples of three print 'Fizz' Instead of the number and for the multiples of the five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz"
+10. Write a python program to check whether an alphabet is a vowel or consonant
+11. Write a python program to calculate the sum and average of n integers number(input from the user) input 0 to finish
+12. Write a python program to create the multiplication table (from 1 to 10) of a number.
+13. Write a python program to sum severn terms of given series
+     1/1! + 2/2! + 3/3! +.....  
+    [HINT: use Math.factorial(x) by import math]
+    
+14. When interest compounds q times per year at an annual rate of r % for n years, the principle p compounds to an annual a as per the following formula  a = p(1 + r / q)^(nq)
+
+ Write a program to read 10 sets of p,r,n & q and calculate the corresponding as
+
+
+15. The policy followed by a company to process customer orders is given by the following rules: 
+  a. If a customer order is less than or equal to that in stock and has credit is OK, supply has requirement
+  b. If has credit is not OK do no supply. Send him intimation
+  c. If has credit is OK but the item in stock is less than has order, supply what is in stock. Intimate to him data the balance will be shipped
+
+  Write a Python program to implement the company policy.
+
+  
+16. A university has the following rules for a student to quality for a degree with A as the main subject and B as the subsidiary subject:
+  a. He should get 55 percent or more in A and 45 percent or more in B
+  b. If he gets than 55 percent in A he should get 55 percent or more in B.
+      However, he should get at least 45 percent in A
+  c. If he gets less than 45 percent in B and 65 percent or more in A he is allowed to reapper in an examination in B to qualify
+  d. In all other cases he is declared to have failed
+  
+  Write a program to receive marks in A and B and Output whether the student has passed, failed or is allowed to reapper in B.
+
+
+17. An Insurrance company follows the following rules to calculate premimum
+  a. If a person's health is excellent and the person is between 25 and 35 years of age and lives in a city and is a male then the premium is Rs 4 per thousand and his policy amount cannot exceed Rs 2 lakhs
+  b. If a person satisfies all the above conditions except that the sex is female then the premimum is Rs 3 per thousand and her policy amount cannot exceed Rs. 1 lakh.
+  c. If a person's health is poor and the person is between 25 and 35 years of age and lives in village and is a male cannot exceed Rs. 10,000.
+  d. In all other cases the person is not insured.
+  Write a program to Output whether the person should be insured or not, his/her premimum rate and maximum amount for which he/she can be insured.

@@ -1,0 +1,142 @@
+17-09-2024 
+
+Python 3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+x = [10,20,30,40]
+b = btyes(x)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    b = btyes(x)
+NameError: name 'btyes' is not defined. Did you mean: 'bytes'?
+b = bytes(x)
+type(b)
+<class 'bytes'>
+print(b[0])
+10
+print(b[-1])
+40
+for i in b :
+    print(i)
+
+10
+20
+30
+40
+b[0] = 100
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    b[0] = 100
+TypeError: 'bytes' object does not support item assignment
+b = bytearray(x)
+for i in b :
+    print(i)
+
+    
+10
+20
+30
+40
+b[0]
+10
+r = range(10,20,2)
+for i in r :
+    print(i)
+
+    
+10
+12
+14
+16
+18
+r[0] = 100
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    r[0] = 100
+TypeError: 'range' object does not support item assignment
+list = [10,20,30]
+for i in list:
+    print (i)
+
+    
+10
+20
+30
+list[0] = 100
+for i in list "
+SyntaxError: unterminated string literal (detected at line 1)
+for i in list :
+    print(i)
+
+    
+100
+20
+30
+for i in rnage (10, 20, 2)
+SyntaxError: expected ':'
+for i in rnage (10, 20, 2) :
+    print(i)
+
+    
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    for i in rnage (10, 20, 2) :
+NameError: name 'rnage' is not defined. Did you mean: 'range'?
+for i in range (10, 20, 2) :
+    print(i)
+
+    
+10
+12
+14
+16
+18
+s = {100,0,20,'durga',0}
+for i in s :
+    print(i)
+
+    
+0
+100
+20
+durga
+for i in s :
+    print(i)
+
+    
+0
+100
+20
+durga
+s.add(100)
+for i in s :
+    print(i)
+
+    
+0
+100
+20
+durga
+s.add(1000)
+for i in s :
+    print(i)
+
+    
+0
+100
+durga
+1000
+20
+
+
+s = 10+2*3
+print(s)
+16
+x = 2.9
+print(round(x))
+3
+math.ceil(2.9)
+3
+
+import math
+math.floor(2.9)
+2
